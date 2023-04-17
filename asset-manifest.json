@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/animate-slider/static/css/main.d0c6f9f5.css",
+    "main.css": "/animate-slider/static/css/main.e72de10c.css",
     "main.js": "/animate-slider/static/js/main.febea5d7.js",
     "static/media/bottle.svg": "/animate-slider/static/media/bottle.6e9a7bcb15dc83e2b006fdf4e93712c2.svg",
     "static/media/circe.ttf": "/animate-slider/static/media/circe.814e4dd4329ffdb6c9ed.ttf",
@@ -30,11 +30,11 @@
     "static/media/shevron-left.svg": "/animate-slider/static/media/shevron-left.b7e6ac98822f219a8d26a8a360276e2f.svg",
     "static/media/shevron-rigth.svg": "/animate-slider/static/media/shevron-rigth.865071d9ae291cca19da97a4ea332520.svg",
     "index.html": "/animate-slider/index.html",
-    "main.d0c6f9f5.css.map": "/animate-slider/static/css/main.d0c6f9f5.css.map",
+    "main.e72de10c.css.map": "/animate-slider/static/css/main.e72de10c.css.map",
     "main.febea5d7.js.map": "/animate-slider/static/js/main.febea5d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c6f9f5.css",
+    "static/css/main.e72de10c.css",
     "static/js/main.febea5d7.js"
   ]
 }
