@@ -1,0 +1,116 @@
+@import "../../../../../styles/colors.scss";
+
+.benefits_slide {
+    height: 100%;
+    padding-top: 100px;
+    position: relative;
+}
+
+.benefits_slide__container {
+    margin-left: 285px;
+}
+
+.title {
+    margin: 80px 0;
+
+    font-family: "DINPro";
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+    padding-left: 7px;
+}
+
+.title_benefits {
+    font-family: "GilroyRegular";
+    font-size: 9rem;
+    letter-spacing: 10px;
+
+    position: relative;
+    z-index: 2000;
+
+    & span {
+        font-family: "GilroyExtraBold";
+    }
+}
+
+.benefits_content {
+    width: 850px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 35px;
+
+    font-family: "DINPro";
+    font-size: 2.2rem;
+    line-height: 1.2;
+
+    position: relative;
+    z-index: 10;
+}
+
+.benefits_content__dish {
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    padding: 50px 40px 50px 0;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 10px 10px 25px 7px rgba($color: #9db9c6, $alpha: 0.39);
+    position: relative;
+}
+
+.benefits_content__dish_icon {
+    position: absolute;
+    top: -40px;
+    left: 285px;
+}
+
+.benefits_content__calendar {
+    padding: 50px 60px 50px 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 10px 10px 25px 7px rgba($color: #9db9c6, $alpha: 0.39);
+    position: relative;
+}
+
+.benefits_content__calendar_icon {
+    position: absolute;
+    top: -35px;
+    left: 40px;
+}
+
+.benefits_content__info {
+    grid-column-start: 2;
+}
+
+.benefits_content__info_btn {
+    display: flex;
+    align-items: center;
+}
+
+.benefits_content__info_btn_add {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+
+    background: $secondary;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 2px #ffaccb, -2px -2px 3px 2px #c94d7a;
+
+    position: relative;
+}
+
+.benefits_content__info_btn_add__icon {
+    width: 15px;
+    height: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}

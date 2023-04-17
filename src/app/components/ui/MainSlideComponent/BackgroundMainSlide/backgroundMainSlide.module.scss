@@ -1,0 +1,101 @@
+@import "../../../../../styles/animation.scss";
+
+.item_m1 {
+    position: absolute;
+    top: 10%;
+    left: -6%;
+
+    & img {
+        height: 100px;
+    }
+}
+
+.item_m2 {
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    z-index: 12;
+
+    & img {
+        height: 100px;
+    }
+
+    animation: move-m2 10s infinite alternate linear;
+}
+
+.item_m3 {
+    position: absolute;
+    top: 9%;
+    right: 24%;
+
+    & img {
+        height: 60px;
+    }
+
+    animation: move-m3 10s infinite alternate linear;
+}
+
+.item_m4 {
+    position: absolute;
+    top: 19%;
+    right: 7%;
+    z-index: 11;
+
+    & img {
+        height: 80px;
+    }
+}
+
+.item_m5 {
+    position: absolute;
+    bottom: -11%;
+    right: 30%;
+
+    & img {
+        height: 200px;
+    }
+
+    animation: move-m5 10s infinite alternate ease-out;
+}
+
+.item_m6 {
+    position: absolute;
+    bottom: 27%;
+    left: 5%;
+
+    & img {
+        height: 70px;
+    }
+
+    animation: move-m6 15s infinite alternate ease-out;
+}
+
+.item_m7 {
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+
+    & img {
+        height: 70px;
+    }
+}
+
+.item_m8 {
+    position: absolute;
+    top: 3%;
+    right: 4%;
+
+    & img {
+        height: 70px;
+    }
+}
+
+.item_m9 {
+    position: absolute;
+    bottom: 3%;
+    left: -5%;
+
+    & img {
+        height: 150px;
+    }
+}

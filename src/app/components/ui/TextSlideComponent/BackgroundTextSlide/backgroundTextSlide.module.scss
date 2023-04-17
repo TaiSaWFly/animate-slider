@@ -1,0 +1,131 @@
+@import "../../../../../styles/animation.scss";
+
+.item_t1 {
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate3d(-28%, -25%, 0);
+
+    & img {
+        height: 900px;
+    }
+}
+
+.item_t1__active {
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+
+    & img {
+        height: 900px;
+    }
+
+    animation: move-t 1.2s 1 alternate ease forwards;
+    animation-delay: 1s;
+}
+
+.item_t2 {
+    opacity: 1;
+    position: absolute;
+    top: 27%;
+    left: 80%;
+    transform: translate3d(-28%, -25%, 0);
+
+    & img {
+        height: 900px;
+    }
+}
+
+.item_t2__active {
+    opacity: 0;
+    position: absolute;
+    top: 27%;
+    left: 80%;
+
+    & img {
+        height: 900px;
+    }
+
+    animation: move-t 1.2s 1 alternate ease forwards;
+    animation-delay: 1.1s;
+}
+
+.item_t3 {
+    opacity: 1;
+    position: absolute;
+    top: -16%;
+    left: 69%;
+    transform: translate3d(-28%, -25%, 0);
+
+    & img {
+        height: 900px;
+    }
+}
+
+.item_t3__active {
+    opacity: 0;
+    position: absolute;
+    top: -16%;
+    left: 69%;
+
+    & img {
+        height: 900px;
+    }
+
+    animation: move-t 1.2s 1 alternate ease forwards;
+    animation-delay: 1.2s;
+}
+
+.item_t4 {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 104%;
+    transform: translate3d(-28%, -25%, 0);
+
+    & img {
+        height: 750px;
+    }
+}
+
+.item_t4__active {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 104%;
+
+    & img {
+        height: 750px;
+    }
+
+    animation: move-t 1.2s 1 alternate ease forwards;
+    animation-delay: 1.3s;
+}
+
+.item_t5 {
+    opacity: 1;
+    position: absolute;
+    top: 46%;
+    left: 72%;
+    transform: translate3d(-28%, -25%, 0);
+
+    & img {
+        height: 650px;
+    }
+}
+
+.item_t5__active {
+    opacity: 0;
+    position: absolute;
+    top: 46%;
+    left: 72%;
+
+    & img {
+        height: 650px;
+    }
+
+    animation: move-t 1.2s 1 alternate ease forwards;
+    animation-delay: 1.5s;
+}

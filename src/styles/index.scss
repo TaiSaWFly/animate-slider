@@ -1,0 +1,32 @@
+//@imports
+@import "./fonts.scss";
+@import "./colors.scss";
+@import "./defaultStyles.scss";
+
+html {
+    font-size: 10px;
+    line-height: 1;
+    color: $primary;
+}
+
+body {
+    margin: 0;
+    font-family: "Circe", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.app_wrapper {
+    width: 1024px;
+    height: 768px;
+}
+
+.container {
+    margin: 0 40px 0 90px;
+}

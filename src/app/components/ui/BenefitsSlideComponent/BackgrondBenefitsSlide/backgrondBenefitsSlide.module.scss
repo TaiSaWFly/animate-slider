@@ -1,0 +1,119 @@
+@import "../../../../../styles/animation.scss";
+
+.item_b1 {
+    position: absolute;
+    bottom: -5%;
+    left: 7%;
+    z-index: 3000;
+
+    & svg {
+        width: 230px;
+        height: 750px;
+    }
+}
+
+.item_b2 {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    z-index: 2910;
+
+    & img {
+        height: 40px;
+    }
+
+    animation: move-b2 15s infinite alternate ease-in;
+}
+
+.item_b3 {
+    position: absolute;
+    top: 42%;
+    left: 21%;
+    z-index: 2910;
+
+    transform: rotate(-70deg);
+
+    & img {
+        height: 110px;
+    }
+
+    animation: move-b3 10s infinite alternate ease-in;
+}
+
+.item_b4 {
+    position: absolute;
+    top: 77%;
+    left: 4%;
+    z-index: 3010;
+
+    & img {
+        height: 70px;
+    }
+
+    animation: move-b4 7s infinite alternate linear;
+}
+
+.item_b5 {
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    z-index: 2910;
+
+    & img {
+        height: 40px;
+    }
+
+    animation: move-b5 5s infinite alternate ease-in;
+}
+
+.item_b6 {
+    position: absolute;
+    top: 21%;
+    left: 20%;
+    z-index: 3010;
+
+    & img {
+        height: 70px;
+    }
+
+    animation: move-b6 8s infinite alternate linear;
+}
+
+.item_b7 {
+    position: absolute;
+    top: 59%;
+    left: 2%;
+    z-index: 3010;
+
+    & img {
+        height: 40px;
+    }
+
+    animation: move-b7 7s infinite alternate ease-in-out;
+}
+
+.item_b8 {
+    position: absolute;
+    top: 79%;
+    left: 26%;
+    z-index: 2910;
+
+    & img {
+        height: 60px;
+    }
+
+    animation: move-b8 15s infinite alternate ease-in-out;
+}
+
+.item_b9 {
+    position: absolute;
+    bottom: -10%;
+    left: 20%;
+    z-index: 3010;
+
+    & img {
+        height: 140px;
+    }
+
+    animation: move-b9 15s infinite alternate ease-in-out;
+}

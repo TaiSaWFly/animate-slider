@@ -1,0 +1,153 @@
+// MainSlide
+
+@keyframes move-m2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(-50px, -50px, 0) rotate(45deg);
+    }
+
+    100% {
+        transform: translate3d(-100px, -90px, 0) rotate(90deg);
+    }
+}
+
+@keyframes move-m3 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(20px, 20px, 0) rotate(20deg);
+    }
+}
+
+@keyframes move-m5 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(10px, -40px, 0) rotate(20deg);
+    }
+}
+
+@keyframes move-m6 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(10px, -50px, 0) rotate(20deg);
+    }
+}
+
+// TextSlide
+
+@keyframes move-t {
+    0% {
+        transform: translate3d(-18%, -15%, 0);
+    }
+
+    100% {
+        transform: translate3d(-28%, -25%, 0);
+        opacity: 1;
+    }
+}
+
+// BenefitsSlide
+
+@keyframes move-b2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(100%, 60%, 0);
+    }
+}
+
+@keyframes move-b3 {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(-70deg) scale(1);
+    }
+    20% {
+        transform: translate3d(-5%, 5%, 0) rotate(-80deg);
+    }
+    50% {
+        transform: translate3d(-10%, 5%, 0) rotate(-80deg);
+    }
+    75% {
+        transform: translate3d(-20%, 25%, 0) rotate(-90deg) scale(0.9);
+    }
+    100% {
+        transform: translate3d(-30%, 25%, 0) rotate(-100deg) scale(1);
+    }
+}
+
+@keyframes move-b4 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(20%, 15%, 0) scale(1.1);
+    }
+    100% {
+        transform: translate3d(40%, 30%, 0) scale(1.2);
+    }
+}
+
+@keyframes move-b5 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(-20%, 15%, 0);
+    }
+    100% {
+        transform: translate3d(50%, 40%, 0);
+    }
+}
+
+@keyframes move-b6 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(10%, 15%, 0);
+    }
+    100% {
+        transform: translate3d(40%, 40%, 0);
+    }
+}
+
+@keyframes move-b7 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(190%, 60%, 0);
+    }
+}
+
+@keyframes move-b8 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(10%, 15%, 0);
+    }
+    100% {
+        transform: translate3d(20%, 50%, 0);
+    }
+}
+
+@keyframes move-b9 {
+    0% {
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+    100% {
+        transform: translate3d(20%, 10%, 0) scale(0.95);
+    }
+}

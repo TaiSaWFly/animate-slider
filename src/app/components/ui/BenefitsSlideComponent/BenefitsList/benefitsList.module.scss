@@ -1,0 +1,26 @@
+.benefits_list {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    opacity: 1;
+
+    transition: opacity 0.2s linear;
+}
+
+.benefits_list__item {
+    margin-bottom: 25px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.benefits_list__item_count {
+    margin-bottom: 5px;
+    font-family: "GilroyExtraBold";
+    color: #68caea;
+}
+
+.benefits_list__item_content {
+    font-family: "DINPro";
+    line-height: 1.2;
+}

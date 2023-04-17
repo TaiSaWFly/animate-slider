@@ -1,0 +1,63 @@
+.benefits_modal__window_hide {
+    width: 100%;
+    height: 100%;
+    padding-top: 145px;
+
+    background: rgba($color: #01223c, $alpha: 0.7);
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    transition: opacity 0.2s ease-in-out;
+}
+
+.benefits_modal__window_show {
+    width: 100%;
+    height: 100%;
+    padding-top: 145px;
+
+    background: rgba($color: #01223c, $alpha: 0.7);
+    opacity: 1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+
+    transition: opacity 0.2s ease-in-out;
+}
+
+.benefits_modal {
+    margin-left: 50px;
+    position: relative;
+}
+
+.benefits_modal__content {
+    margin: 0 auto;
+    padding: 35px 35px 35px 242px;
+
+    background: #fff;
+    border-radius: 40px;
+}
+
+.benefits_modal__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+
+    & .benefits_modal__close_icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.benefits_modal__title {
+    margin-bottom: 140px;
+    font-family: "DINPro";
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
