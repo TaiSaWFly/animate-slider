@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/animate-slider/static/css/main.d0c6f9f5.css",
+    "main.js": "/animate-slider/static/js/main.febea5d7.js",
+    "static/media/bottle.svg": "/animate-slider/static/media/bottle.6e9a7bcb15dc83e2b006fdf4e93712c2.svg",
+    "static/media/circe.ttf": "/animate-slider/static/media/circe.814e4dd4329ffdb6c9ed.ttf",
+    "static/media/bg.webp": "/animate-slider/static/media/bg.7315137123bef61b2760.webp",
+    "static/media/din-pro.ttf": "/animate-slider/static/media/din-pro.268a0df3f0e2c23d1ea6.ttf",
+    "static/media/din-pro-bold.ttf": "/animate-slider/static/media/din-pro-bold.c659f8abae64365447e0.ttf",
+    "static/media/gilroy-light.ttf": "/animate-slider/static/media/gilroy-light.6a267579507f99acc295.ttf",
+    "static/media/gilroy-regular.ttf": "/animate-slider/static/media/gilroy-regular.b91b0127c56a8e5f9e83.ttf",
+    "static/media/gilroy-extrabold.ttf": "/animate-slider/static/media/gilroy-extrabold.f36f293eb8ab45b79d06.ttf",
+    "static/media/bacterium-4.png": "/animate-slider/static/media/bacterium-4.694f75021caf5f429db4.png",
+    "static/media/pink_sperm-2.png": "/animate-slider/static/media/pink_sperm-2.36cc44bad0dc08fa9ab6.png",
+    "static/media/pink-sperm-11.png": "/animate-slider/static/media/pink-sperm-11.3108e140c94ba67b5f2a.png",
+    "static/media/bacterium-1.png": "/animate-slider/static/media/bacterium-1.e600d9c7369ca5a54ee1.png",
+    "static/media/bacterium-2.png": "/animate-slider/static/media/bacterium-2.93aef829e42501d1272a.png",
+    "static/media/pink_sperm-1.png": "/animate-slider/static/media/pink_sperm-1.edf16135dbbf9d99f899.png",
+    "static/media/bubble-3.png": "/animate-slider/static/media/bubble-3.8f2a4a080bf0f53025f4.png",
+    "static/media/pink-sperm-12.png": "/animate-slider/static/media/pink-sperm-12.57374bb451ed05344847.png",
+    "static/media/bacterium-5.png": "/animate-slider/static/media/bacterium-5.44acae9a11f778a83a8a.png",
+    "static/media/pink-sperm-14.png": "/animate-slider/static/media/pink-sperm-14.e2a8a93d111aee4bfda8.png",
+    "static/media/dish.svg": "/animate-slider/static/media/dish.79da76828cfabe5521a714eb45850c3f.svg",
+    "static/media/calendar.svg": "/animate-slider/static/media/calendar.78d2ceb7debb8162465e4e5cf63fa2f9.svg",
+    "static/media/logo.svg": "/animate-slider/static/media/logo.b39121ad4cd13f55f8b4ffd1a1cebb2c.svg",
+    "static/media/close.svg": "/animate-slider/static/media/close.d10f7e17fb291db577b9d42190ef22d0.svg",
+    "static/media/arrow-rigth.svg": "/animate-slider/static/media/arrow-rigth.78b95e3ad5a95eb634b653cfa7ffc653.svg",
+    "static/media/plus.svg": "/animate-slider/static/media/plus.106feaf495e221da52ab8f898fd376a7.svg",
+    "static/media/home.svg": "/animate-slider/static/media/home.3c39a42486c6aa4ffcf3f72190bbe6f5.svg",
+    "static/media/shevron-left.svg": "/animate-slider/static/media/shevron-left.b7e6ac98822f219a8d26a8a360276e2f.svg",
+    "static/media/shevron-rigth.svg": "/animate-slider/static/media/shevron-rigth.865071d9ae291cca19da97a4ea332520.svg",
+    "index.html": "/animate-slider/index.html",
+    "main.d0c6f9f5.css.map": "/animate-slider/static/css/main.d0c6f9f5.css.map",
+    "main.febea5d7.js.map": "/animate-slider/static/js/main.febea5d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0c6f9f5.css",
+    "static/js/main.febea5d7.js"
+  ]
+}
